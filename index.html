@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="mydark">
     <div class="top-nav">
         <div class="top-nav-left">
             <a href="http://">About us</a>
@@ -31,7 +31,7 @@
     <div class="header"><img id="blog-img" src="copywriting.png" alt="blog-img">Blogerithm</div>
     <div class="nav">
         <div class="nav-left">
-            <a href="http://">Sign-In/Login</a>
+            <a href="http://" ><button>Sign-In/Login</button> </a>
             <select id="category">
                 <option value="">Category</option>
                 <option value="">Fashion</option>
@@ -48,6 +48,7 @@
             </select>
         </div>
         <div class="nav-right">
+            <Button id="mode" onclick="changeMode()">Dark Mode</Button>
             <input type="textarea" placeholder="Search"></input>
             <button class="search-btn">Go</button>
         </div>
@@ -137,6 +138,8 @@
             <div><button class="read-more">Read More-></button></div>
         </div>
     </div>
+    <footer> &#169;Copywrite</footer>
+    <script src="app.js"></script>
 </body>
 
 </html>

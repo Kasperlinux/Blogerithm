@@ -1,5 +1,7 @@
 body{
     margin: auto;
+    background-color:rgb(255, 255, 255);
+    color:black;
 }
 a{
     text-decoration: none;
@@ -66,14 +68,17 @@ select{
     margin-top:1%;
     margin-left: 70%;
     margin-right: auto;
-    position:absolute;;
+    position:absolute;
 }
-
+.nav-right button{
+    border-radius: 10px;
+    background-color: white;
+    color: black ;
+}
 
 .body{
     margin-left:10%;
     padding: 10px;
-    
 }
 .card{
     /* border: 2px solid blue; */
@@ -84,7 +89,7 @@ select{
     box-shadow: 3px 5px 10px #3b2632;
     margin-top:3%;
     margin-left: 2%;
-    background-color:azure;
+    /* background-color:azure; */
 }
 .card:hover{
     transform:scale(1.1)
@@ -121,4 +126,19 @@ select{
 .read-more:hover{
     background-color: black;
   color: white;
+}
+footer{
+    /* border: 2px solid orange; */
+    height: 30px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.mydark{
+    background-color:rgb(51, 49, 49);
+    color:white;
+  }
+#mode{
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px #2a3cad;
 }
